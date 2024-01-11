@@ -1,0 +1,89 @@
+.cardCuota{
+    display: inline-block;
+    background-color: #fff;
+    margin: 20px 10px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.10);
+    background: rgba(255, 255, 255, 0.37);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.cardCuota__numero{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0C46A1;
+    text-align: center;
+}
+
+.cardCuota__porcentaje{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0C46A1;
+    text-align: center;
+}
+
+.cardCuota__contenedorMontos{
+    text-align: center;
+     margin-top: 10px;
+}
+
+.cardCuota__precioFinal{
+    font-size: 16px;
+     font-weight: bold;
+       margin: 0;
+}
+
+.cardCuota__precioCuotas{
+    font-size: 15px;
+    margin: 0;
+}
+
+.fade-in{
+    animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both
+}
+
+.fade-out {
+	-webkit-animation: fade-out 1s ease-out both;
+	        animation: fade-out 1s ease-out both;
+}
+
+
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  

@@ -7,7 +7,7 @@ function CardCuota(props) {
 
     return (
         <>
-            <div className="cardCuota fade-in lg:w-1/5 w-2/5 fade-in min">
+            <div className="cardCuota fade-in lg:w-1/5 w-2/5 fade-in ">
                 <div className="cardCuota__numero">{cuota}</div>
                 <div className="cardCuota__contenedorMontos">
                     <p className="cardCuota__precioFinal">Precio Final ${Math.round(monto * montoFinal).toLocaleString("de-DE")}</p>

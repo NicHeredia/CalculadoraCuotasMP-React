@@ -31,14 +31,14 @@
 }
 
 .cardCuota__precioFinal{
-    font-size: 16px;
+    font-size: 18px;
      font-weight: bold;
        margin: 0;
 }
 
 .cardCuota__precioCuotas{
-    font-size: 16px;
-    margin: 10px 0;
+    font-size: 18px;
+    margin: 10px 1px;
 }
 
 .fade-in{

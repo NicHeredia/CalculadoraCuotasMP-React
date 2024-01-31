@@ -1,5 +1,4 @@
-import CardCuota_Credito from './CardCuota_Credito';
-import CardCuota_Custom from './CardCuota_Custom';
+import CardCuota from './CardCuota';
 
 import { tasa_naranja, porcentajes, tasa_ahora12 } from './tasas';
 
@@ -9,14 +8,14 @@ function CrearCards_Naranja (props) {
     return (
         [
             <h2 key="Naranja" className='text-3xl m-3 weight-bold'>Naranja</h2>,
-            <CardCuota_Credito
+            <CardCuota
                 key="cuota1"
                 cuota={1}
                 montoFinal={tasa_ahora12.cuotas1}
                 porcentaje={porcentajes.cuotas1}
                 monto={monto}
             />,
-            <CardCuota_Custom
+            <CardCuota
                 key="debito"
                 cuota={"D"}
                 mensaje = {"Precio final Debito"}
@@ -24,21 +23,21 @@ function CrearCards_Naranja (props) {
                 porcentaje={porcentajes.debito}
                 monto={monto}
             />,
-            <CardCuota_Credito
+            <CardCuota
                 key="cuota2_naranja"
                 cuota={2}
                 montoFinal={tasa_naranja. naranja2}
                 porcentaje={porcentajes.naranja2}
                 monto={monto}
             />,
-            <CardCuota_Credito
+            <CardCuota
                 key="cuota3_naranja"
                 cuota={3}
                 montoFinal={tasa_naranja.naranja3}
                 porcentaje={porcentajes.naranja3}
                 monto={monto}
             />,
-            <CardCuota_Credito
+            <CardCuota
                 key="cuota6_naranja"
                 cuota={6}
                 montoFinal={tasa_naranja.naranja6}

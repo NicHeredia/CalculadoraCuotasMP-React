@@ -1,6 +1,6 @@
 import {costos_compra} from './tasas';
 
-import CardCuota_Custom from './CardCuota_Custom';
+import CardCuota from './CardCuota';
 
 function CrearCards_Costos (props) {
 
@@ -9,7 +9,7 @@ function CrearCards_Costos (props) {
     return (
         [
             <h2 key="costos" className='text-3xl m-3 weight-bold'>Costos</h2>,
-            <CardCuota_Custom
+            <CardCuota
                 key="costos40"
                 cuota={"40"}
                 mensaje = {"Precio 40% + IVA"}
@@ -17,7 +17,7 @@ function CrearCards_Costos (props) {
                 porcentaje={40}
                 monto={monto}
             />,
-            <CardCuota_Custom
+            <CardCuota
                 key="costos50"
                 cuota={"50"}
                 mensaje = {"Precio 50% + IVA"}

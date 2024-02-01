@@ -1,6 +1,6 @@
 import './btn.css'
 import  { useState } from 'react';
-import CrearCards_Ahora12 from './CrearCards_Ahora12';
+import CrearCards_CuotaSimple from './CrearCards_CuotaSimple';
 import CrearCards_Naranja from './CrearCards_Naranja';
 import CrearCards_Costos from './CrearCards_Costos';
 
@@ -22,8 +22,8 @@ function Contenedor() {
         setMontoValue(event.target.value);
     };
 
-    const handleClickAhora = () => {
-        // Cambia el estado para mostrar la CardCuotaCredito
+    const handleClickCuotaSimple = () => {
+        // Cambia el estado para mostrar la CardCuota
         setMostrarBtnBorrar(true);
         setMostrarCard_Ahora(true);
         setMostrarCard_Naranja(false);
@@ -33,7 +33,7 @@ function Contenedor() {
     };
 
     const handleClickNaranja = () => {
-        // Cambia el estado para mostrar la CardCuotaCredito
+        // Cambia el estado para mostrar la CardCuota
         setMostrarBtnBorrar(true);
         setMostrarCard_Naranja(true);
         setMostrarCard_Ahora(false);
@@ -42,7 +42,7 @@ function Contenedor() {
     };
 
     const handleClickCostos = () => {
-        // Cambia el estado para mostrar la CardCuotaCredito
+        // Cambia el estado para mostrar la CardCuota
         setMostrarBtnBorrar(true);
         setMostrarCard_Naranja(false);
         setMostrarCard_Ahora(false);
@@ -51,7 +51,7 @@ function Contenedor() {
     };
 
     const handleClickBorrar = () => {
-        // Cambia el estado para mostrar la CardCuotaCredito
+        // Cambia el estado para mostrar la CardCuota
         setFadeOut(true)
         setTimeout(() => {
             setMostrarCard_Naranja(false);
@@ -71,7 +71,7 @@ function Contenedor() {
                     <div className="flex align-middle justify-center w-full m-auto">
                         <input
                             type="number"
-                            className="w-9/12 text-center my-3 mx-auto lg:w-2/5 focus:outline-none"
+                            className="w-9/12 text-center my-3 mx-auto lg:w-2/5 focus:outline-none text-lg"
                             id='monto'
                             placeholder="Ingrese el monto"
                             value={montoValue} // Asigna el valor del estado al input
@@ -90,14 +90,14 @@ function Contenedor() {
                         )}
                     </div>
 
-                    <button className='bg-[#004e98]' onClick={handleClickAhora}>Ahora 12</button>
+                    <button className='bg-[#004e98]' onClick={handleClickCuotaSimple}>Cuota Simple</button>
                     <button className='bg-[#ff6b35]'onClick={handleClickNaranja}>Naranja</button>
                     <button className='bg-black' onClick={handleClickCostos}>Costos</button>
 
                 
 
                 <div id="resultadoCuotas" className={fadeOut ? 'fade-out' : ''}>
-                    {mostrarCard_Ahora && CrearCards_Ahora12({monto: montoValue })}
+                    {mostrarCard_Ahora && CrearCards_CuotaSimple({monto: montoValue })}
                     {mostrarCard_Naranja && CrearCards_Naranja({monto: montoValue })}
                     {mostrarCard_Costos && CrearCards_Costos({monto: montoValue })}
 

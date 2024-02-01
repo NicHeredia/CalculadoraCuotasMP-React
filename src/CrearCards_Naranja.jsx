@@ -1,6 +1,6 @@
 import CardCuota from './CardCuota';
 
-import { tasa_naranja, porcentajes, tasa_ahora12 } from './tasas';
+import { tasa_naranja, porcentajes, tasa_cuota_simple } from './tasas';
 
 function CrearCards_Naranja (props) {
     const {monto} = props;
@@ -11,7 +11,7 @@ function CrearCards_Naranja (props) {
             <CardCuota
                 key="cuota1"
                 cuota={1}
-                montoFinal={tasa_ahora12.cuotas1}
+                montoFinal={tasa_cuota_simple.cuotas1}
                 porcentaje={porcentajes.cuotas1}
                 monto={monto}
             />,
@@ -19,7 +19,7 @@ function CrearCards_Naranja (props) {
                 key="debito"
                 cuota={"D"}
                 mensaje = {"Precio final Debito"}
-                montoFinal={tasa_ahora12.debito}
+                montoFinal={tasa_cuota_simple.debito}
                 porcentaje={porcentajes.debito}
                 monto={monto}
             />,

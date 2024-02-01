@@ -1,9 +1,8 @@
-export const tasa_ahora12 = {
+export const tasa_cuota_simple = {
     cuotas1 : 1.123092,
     debito : 1.070664,
     cuotas3 : 1.336364,
     cuotas6 : 1.585038,
-    cuotas12 : 2.25581
 }
 export const tasa_naranja = {
     naranja2 : 1.468214,

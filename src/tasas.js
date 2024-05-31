@@ -3,6 +3,8 @@ export const tasa_cuota_simple = {
     debito : 1.070662,
     cuotas3 : 1.217282,
     cuotas6 : 1.32626,
+    cuotas9 : 1.440924,
+    cuotas12 : 1.570844
 }
 export const tasa_naranja = {
     naranja2 : 1.30976,
@@ -17,13 +19,14 @@ export const costos_compra = {
 
 export const porcentajes = {
     debito : 8,
-    cuotas1 : 13,
+    cuotas1 : 12,
     naranja2 : 47,
     naranja3 : 62,
     naranja6 : 120,
-    ahora3 : 34,
-    ahora6 : 59,
-    ahora12 : 126  
+    ahora3 : 22,
+    ahora6 : 33,
+    ahora9 : 44,
+    ahora12 : 58  
 }
 
 

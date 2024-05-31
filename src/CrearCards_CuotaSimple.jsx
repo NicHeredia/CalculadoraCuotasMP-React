@@ -35,6 +35,21 @@ function CrearCards_Ahora12 (props) {
                 porcentaje={porcentajes.ahora6}
                 monto={monto}
             />,
+            <CardCuota
+                key="cuota9"
+                cuota={9}
+                montoFinal={tasa_cuota_simple.cuotas9}
+                porcentaje={porcentajes.ahora9}
+                monto={monto}
+            />,
+            
+            <CardCuota
+                key="cuota12"
+                cuota={12}
+                montoFinal={tasa_cuota_simple.cuotas12}
+                porcentaje={porcentajes.ahora12}
+                monto={monto}
+            />,
         ]
     )
 

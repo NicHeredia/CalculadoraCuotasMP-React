@@ -43,7 +43,8 @@ function CrearCards_Naranja (props) {
                 montoFinal={tasa_naranja.naranja6}
                 porcentaje={porcentajes.naranja6}
                 monto={monto}
-            />
+            />,
+            
         ]
     )
 

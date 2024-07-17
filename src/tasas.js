@@ -20,9 +20,9 @@ export const costos_compra = {
 export const porcentajes = {
     debito : 8,
     cuotas1 : 12,
-    naranja2 : 47,
-    naranja3 : 62,
-    naranja6 : 120,
+    naranja2 : 29,
+    naranja3 : 36,
+    naranja6 : 58,
     ahora3 : 22,
     ahora6 : 33,
     ahora9 : 44,

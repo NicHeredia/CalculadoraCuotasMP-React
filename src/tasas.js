@@ -1,10 +1,8 @@
 export const tasa_cuota_simple = {
     cuotas1 : 1.115448,
     debito : 1.070662,
-    cuotas3 : 1.193034,
-    cuotas6 : 1.277794,
-    cuotas9 : 1.368738,
-    cuotas12 : 1.466708
+    cuotas3 : 1.21095,
+    cuotas6 : 1.315792,
 }
 export const tasa_naranja = {
     naranja2 : 1.285514,

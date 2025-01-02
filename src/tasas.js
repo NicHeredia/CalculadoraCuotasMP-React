@@ -21,10 +21,8 @@ export const porcentajes = {
     naranja2 : 29,
     naranja3 : 36,
     naranja6 : 58,
-    ahora3 : 19,
-    ahora6 : 27,
-    ahora9 : 36,
-    ahora12 : 46  
+    ahora3 : 21,
+    ahora6 : 32, 
 }
 
 

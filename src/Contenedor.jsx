@@ -90,8 +90,8 @@ function Contenedor() {
                         )}
                     </div>
 
-                    <button className='bg-[#004e98]' onClick={handleClickCuotaSimple}>Cuota Simple</button>
-                    <button className='bg-[#ff6b35]'onClick={handleClickNaranja}>Naranja</button>
+                    
+                    <button className='bg-[#3098ee]'onClick={handleClickNaranja}>Cuotas</button>
                     <button className='bg-black' onClick={handleClickCostos}>Costos</button>
 
                 

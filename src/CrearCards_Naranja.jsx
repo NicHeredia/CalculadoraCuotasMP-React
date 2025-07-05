@@ -24,13 +24,6 @@ function CrearCards_Naranja (props) {
                 monto={monto}
             />,
             <CardCuota
-                key="cuota2_naranja"
-                cuota={2}
-                montoFinal={tasa_naranja. naranja2}
-                porcentaje={porcentajes.naranja2}
-                monto={monto}
-            />,
-            <CardCuota
                 key="cuota3_naranja"
                 cuota={3}
                 montoFinal={tasa_naranja.naranja3}
@@ -42,6 +35,20 @@ function CrearCards_Naranja (props) {
                 cuota={6}
                 montoFinal={tasa_naranja.naranja6}
                 porcentaje={porcentajes.naranja6}
+                monto={monto}
+            />,
+            <CardCuota
+                key="cuota6_naranja"
+                cuota={9}
+                montoFinal={tasa_naranja.naranja9}
+                porcentaje={porcentajes.naranja9}
+                monto={monto}
+            />,
+            <CardCuota
+                key="cuota6_naranja"
+                cuota={12}
+                montoFinal={tasa_naranja.naranja12}
+                porcentaje={porcentajes.naranja12}
                 monto={monto}
             />,
             

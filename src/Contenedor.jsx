@@ -91,7 +91,7 @@ function Contenedor() {
                     </div>
 
                     
-                    <button className='bg-[#3098ee]'onClick={handleClickNaranja}>Cuotas</button>
+                    <button className='bg-[#3098ee]'onClick={handleClickNaranja}>Cuotas</button> 
                     <button className='bg-black' onClick={handleClickCostos}>Costos</button>
 
                 

@@ -8,7 +8,7 @@ export const tasa_naranja = {
     naranja3 : 1.200000,
     naranja6 : 1.300000,
     naranja9: 1.4000000,
-    naranja12: 1.500000
+    naranja12: 1.550000
 }
 
 export const costos_compra = {

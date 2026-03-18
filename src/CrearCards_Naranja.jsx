@@ -38,7 +38,7 @@ function CrearCards_Naranja (props) {
                 monto={monto}
             />,
             <CardCuota
-                key="cuota6_naranja"
+                key="cuota9_naranja"
                 cuota={9}
                 montoFinal={tasa_naranja.naranja9}
                 porcentaje={porcentajes.naranja9}
